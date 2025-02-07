@@ -97,7 +97,8 @@ With these steps, you should be able to regain control of your ESP32 and continu
 
 ### 4. Potentiometer
 
-**File**: `https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Input/Potentiometer.py`  
+[Potentiometer](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Input/Potentiometer.py)
+
 **What it Does**: Reads an analog value from a potentiometer using an ADC pin, then prints the raw reading and approximate voltage.
 
 ### 5. LED Fade (PWM)
