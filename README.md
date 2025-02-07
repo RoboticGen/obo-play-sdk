@@ -5,11 +5,10 @@
   <p align="center">
     </p> 
 
----
-This repository provides sample code and documentation for the **Obo-Play Kit** – a MicroPython-based kit featuring an ESP32, a half breadboard, and an SSD1306 OLED display. You’ll find:
 
-- A library (`oboplay.py`) to initialize and control the OLED display.
-- A standalone Night-rider demo (`nightrider.py`).
+---
+This repository provides sample code and documentation for the **Obo-Play Kit** – a MicroPython-based kit featuring an ESP32, a half breadboard, and an SSD1306 OLED display.
+
 
 ## Features
 
@@ -38,20 +37,13 @@ This repository provides sample code and documentation for the **Obo-Play Kit** 
      - **Variant**: Espressif ESP32 / WROOM.
    - Click **Install** to flash MicroPython onto your ESP32.
 
-3. **Upload the OBOCar SDK**:
-   - Create a new file in Thonny.
-   - Copy the contents of `obocar.py` into the file.
-   - Click Save
-   - Select 'Micropython device'
-   - Rename as `obocar.py`
-   - Select OK
-  
+
 3. **Upload the Test Code**:
    - Create a new file in Thonny.
-   - Copy the contents of `boot.py` into the file.
+   - Copy the contents of `main.py` into the file.
    - Click Save
    - Select 'Micropython device'
-   - Rename as `boot.py`
+   - Rename as `main.py`
    - Select OK
    - Extra : If a dialogue box appeared asking overwriting click OK
 
@@ -82,7 +74,45 @@ If you encounter issues such as a **"Backend not ready"** warning or the program
 4. **Reinstall MicroPython** (Optional):
    - If the problem persists, you may need to reinstall MicroPython using the instructions provided above.
 
-With these steps, you should be able to regain control of your ESP32 and continue using the OBOCar SDK.
+With these steps, you should be able to regain control of your ESP32 and continue using the OBOPlay SDK.
 
+---
 
-Happy coding with your Obo-Play Kit!
+## Examples Overview
+
+### 1. Blink an LED
+
+**File**: `blink_led.py`  
+**What it Does**: Toggles an LED on and off at 1-second intervals, demonstrating a simple digital output.
+
+### 2. Knight Rider
+
+**File**: `knight_rider.py`  
+**What it Does**: Lights a series of LEDs in a chase sequence, forward and backward—like the Knight Rider effect.
+
+### 3. Push Button
+
+**File**: `push_button.py`  
+**What it Does**: Reads a push button using an internal pull-up resistor. Prints “Pressed!” or “Released!” based on the state.
+
+### 4. Potentiometer
+
+**File**: `potentiometer.py`  
+**What it Does**: Reads an analog value from a potentiometer using an ADC pin, then prints the raw reading and approximate voltage.
+
+### 5. LED Fade (PWM)
+
+**File**: `led_fade.py`  
+**What it Does**: Uses PWM to fade an LED in and out by varying the duty cycle on a GPIO pin.
+
+---
+
+## Notes
+- **File Saving**: Replace your "main.py" with the new content ( for ex: blink an LED.py)
+- **Pin Assignments**: Adjust pin numbers as needed for your board’s layout or built-in LED.  
+- **Timing**: Modify `time.sleep()` calls or loop ranges to speed up or slow down the effects.  
+- **Circuit Setup**: Always use current-limiting resistors for LEDs, and wire push buttons or potentiometers correctly (with appropriate pull-ups or pull-downs if needed).  
+- **ADC Range**: The ESP32 ADC typically returns values from 0 to 4095 (12-bit resolution). Voltage references can vary; check your board specs.  
+- **PWM**: By default in MicroPython, duty cycles range from 0 to 1023 (0–100% duty).
+
+Enjoy exploring these basic MicroPython features on your **OBO-PLAY** ESP32 kit!
