@@ -88,6 +88,9 @@ Toggles an LED on and off at 1-second intervals, demonstrating a simple digital 
 
 Lights a series of LEDs in a chase sequence, forward and backward—like the Knight Rider effect.
 
+
+![image](https://github.com/user-attachments/assets/dc5ba10d-6750-4aaa-9d8f-ed12eec91db5)
+
 ### [3. Push Button](https://github.com/RoboticGen/obo-play-sdk/blob/main/Digital%20Input/Push%20Button.py)
  
 Reads a push button using an internal pull-up resistor. Prints “Pressed!” or “Released!” based on the state.
@@ -101,6 +104,8 @@ Reads an analog value from a potentiometer using an ADC pin, then prints the raw
 ### [5. LED Fade (PWM)](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Output%20(PWM)/LED%20Fade.py)
 
 Uses PWM to fade an LED in and out by varying the duty cycle on a GPIO pin.
+
+![image](https://github.com/user-attachments/assets/480bdc8d-5706-4528-9521-3853d5097111)
 
 ---
 
