@@ -95,6 +95,7 @@ Reads a push button using an internal pull-up resistor. Prints “Pressed!” or
 ### [4. Potentiometer](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Input/Potentiometer.py)
 
 Reads an analog value from a potentiometer using an ADC pin, then prints the raw reading and approximate voltage.
+
 ![image](https://github.com/user-attachments/assets/f181ffbe-2e6c-478d-acb3-b88a1e4fffb5)
 
 ### [5. LED Fade (PWM)](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Output%20(PWM)/LED%20Fade.py)
