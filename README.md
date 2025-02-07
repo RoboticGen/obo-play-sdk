@@ -95,8 +95,7 @@ With these steps, you should be able to regain control of your ESP32 and continu
 **File**: `push_button.py`  
 **What it Does**: Reads a push button using an internal pull-up resistor. Prints “Pressed!” or “Released!” based on the state.
 
-### 4. Potentiometer
-[**File**](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Input/Potentiometer.py)
+### [ Potentiometer](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Input/Potentiometer.py)
 
 
 **What it Does**: Reads an analog value from a potentiometer using an ADC pin, then prints the raw reading and approximate voltage.
