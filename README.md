@@ -82,26 +82,23 @@ With these steps, you should be able to regain control of your ESP32 and continu
 
 ### [1. Blink an LED](https://github.com/RoboticGen/obo-play-sdk/blob/main/digital_output/Blink%20an%20LED.py)
 
-
-**What it Does**: Toggles an LED on and off at 1-second intervals, demonstrating a simple digital output.
+Toggles an LED on and off at 1-second intervals, demonstrating a simple digital output.
 
 ### [2. Knight Rider](https://github.com/RoboticGen/obo-play-sdk/blob/main/digital_output/Knight%20Rider.py)
 
-
-**What it Does**: Lights a series of LEDs in a chase sequence, forward and backward—like the Knight Rider effect.
+Lights a series of LEDs in a chase sequence, forward and backward—like the Knight Rider effect.
 
 ### [3. Push Button](https://github.com/RoboticGen/obo-play-sdk/blob/main/Digital%20Input/Push%20Button.py)
  
-**What it Does**: Reads a push button using an internal pull-up resistor. Prints “Pressed!” or “Released!” based on the state.
+Reads a push button using an internal pull-up resistor. Prints “Pressed!” or “Released!” based on the state.
 
 ### [4. Potentiometer](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Input/Potentiometer.py)
 
-
-**What it Does**: Reads an analog value from a potentiometer using an ADC pin, then prints the raw reading and approximate voltage.
+Reads an analog value from a potentiometer using an ADC pin, then prints the raw reading and approximate voltage.
 
 ### [5. LED Fade (PWM)](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Output%20(PWM)/LED%20Fade.py)
 
-**What it Does**: Uses PWM to fade an LED in and out by varying the duty cycle on a GPIO pin.
+Uses PWM to fade an LED in and out by varying the duty cycle on a GPIO pin.
 
 ---
 
