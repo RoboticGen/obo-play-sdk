@@ -83,6 +83,7 @@ With these steps, you should be able to regain control of your ESP32 and continu
 ### [1. Blink an LED](https://github.com/RoboticGen/obo-play-sdk/blob/main/digital_output/Blink%20an%20LED.py)
 
 Toggles an LED on and off at 1-second intervals, demonstrating a simple digital output.
+![image](https://github.com/user-attachments/assets/64b12059-7fa4-41c0-8f0d-34a485896476)
 
 ### [2. Knight Rider](https://github.com/RoboticGen/obo-play-sdk/blob/main/digital_output/Knight%20Rider.py)
 
@@ -94,6 +95,7 @@ Lights a series of LEDs in a chase sequence, forward and backward—like the Kni
 ### [3. Push Button](https://github.com/RoboticGen/obo-play-sdk/blob/main/Digital%20Input/Push%20Button.py)
  
 Reads a push button using an internal pull-up resistor. Prints “Pressed!” or “Released!” based on the state.
+![image](https://github.com/user-attachments/assets/09617b57-0d15-44d1-83c2-ea191cf84ca6)
 
 ### [4. Potentiometer](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Input/Potentiometer.py)
 
