@@ -16,7 +16,7 @@ fb = framebuf.FrameBuffer(roboticgen_logo, 128, 33, framebuf.MONO_HLSB)
 OLED.framebuf.blit(fb, 0, 14)
 OLED.show()
 
-time.sleep(1)
+sleep(1)
 
 fb = framebuf.FrameBuffer(oboplay_logo, 128, 24, framebuf.MONO_HLSB)
 OLED.fill(0)
