@@ -1,5 +1,6 @@
 from machine import Pin, PWM, SoftI2C, time_pulse_us
 import framebuf
+import time
 #The classes for starting oled display
 # register definitions
 SET_CONTRAST        = const(0x81)
