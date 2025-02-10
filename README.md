@@ -95,7 +95,7 @@ Lights a series of LEDs in a chase sequence, forward and backward—like the Kni
 ### [3. Push Button](https://github.com/RoboticGen/obo-play-sdk/blob/main/Digital%20Input/Push%20Button.py)
  
 Reads a push button using an internal pull-up resistor. Prints “Pressed!” or “Released!” based on the state.
-![image](https://github.com/user-attachments/assets/09617b57-0d15-44d1-83c2-ea191cf84ca6)
+![image](https://github.com/user-attachments/assets/01e5bc89-de75-49eb-a7dc-436fc164fd1e)
 
 ### [4. Potentiometer](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Input/Potentiometer.py)
 
