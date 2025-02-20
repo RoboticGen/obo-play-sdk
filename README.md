@@ -7,7 +7,7 @@
 
 
 ---
-This repository provides sample code and documentation for the **Obo-Play Kit** – a MicroPython-based kit featuring an ESP32, a half breadboard, and an SSD1306 OLED display.
+This repository provides sample code and documentation for the **Obo-Play Kit**.
 
 
 ## Features
