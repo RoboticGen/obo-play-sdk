@@ -83,31 +83,31 @@ With these steps, you should be able to regain control of your ESP32 and continu
 ### [1. Blink an LED](https://github.com/RoboticGen/obo-play-sdk/blob/main/digital_output/Blink%20an%20LED.py)
 
 Toggles an LED on and off at 1-second intervals, demonstrating a simple digital output.
-![image](https://github.com/user-attachments/assets/64b12059-7fa4-41c0-8f0d-34a485896476)
+![3](https://github.com/user-attachments/assets/3081c151-39a7-4ece-959b-c5b6539313c8)
 
 ### [2. Knight Rider](https://github.com/RoboticGen/obo-play-sdk/blob/main/digital_output/Knight%20Rider.py)
 
 Lights a series of LEDs in a chase sequence, forward and backward—like the Knight Rider effect.
 
+![4](https://github.com/user-attachments/assets/19597621-50a8-4881-a2ed-6499a62c536a)
 
-![image](https://github.com/user-attachments/assets/dc5ba10d-6750-4aaa-9d8f-ed12eec91db5)
 
 ### [3. Push Button](https://github.com/RoboticGen/obo-play-sdk/blob/main/Digital%20Input/Push%20Button.py)
  
 Reads a push button using an internal pull-up resistor. Prints “Pressed!” or “Released!” based on the state.
-![image](https://github.com/user-attachments/assets/01e5bc89-de75-49eb-a7dc-436fc164fd1e)
+![5](https://github.com/user-attachments/assets/8b8864ee-6687-4e04-943f-85e77f092e3b)
 
 ### [4. Potentiometer](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Input/Potentiometer.py)
 
 Reads an analog value from a potentiometer using an ADC pin, then prints the raw reading and approximate voltage.
 
-![image](https://github.com/user-attachments/assets/f181ffbe-2e6c-478d-acb3-b88a1e4fffb5)
+![6](https://github.com/user-attachments/assets/2824e2a5-90a2-4907-95b2-461286d202ef)
 
 ### [5. LED Fade (PWM)](https://github.com/RoboticGen/obo-play-sdk/blob/main/Analog%20Output%20(PWM)/LED%20Fade.py)
 
 Uses PWM to fade an LED in and out by varying the duty cycle on a GPIO pin.
+![7](https://github.com/user-attachments/assets/6718ed99-dedf-451a-8033-04fd1cc13f75)
 
-![image](https://github.com/user-attachments/assets/480bdc8d-5706-4528-9521-3853d5097111)
 
 ---
 
