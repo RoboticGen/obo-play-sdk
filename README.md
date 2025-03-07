@@ -1,7 +1,7 @@
 # OBO-Play SDK Documentation
 <p align="center">
 
-<img width="100%" src="https://github.com/user-attachments/assets/b8f67c37-569a-48df-81a6-ba8012133346" text="OBO PLAY">
+<img width="100%" src="https://github.com/RoboticGen/obo-play-sdk/blob/main/IMG/OBO%20Play%20PitchDeck.png" text="OBO PLAY">
   <p align="center">
     </p> 
 
